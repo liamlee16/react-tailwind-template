@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -38,12 +39,18 @@ function Navbar() {
             </div>
           </div>
           <div className="relative p-1 flex items-center justify-end w-1/4 ml-5 mr-4 sm:mr-0 sm:right-auto">
-            <a href="#" className="block relative mr-2">
-              Page 1
-            </a>
-            <a href="#" className="block relative">
-              Page 2
-            </a>
+            <NavLink
+              className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
+              to="/"
+            >
+              <span className="mx-4 text-md font-normal">Page 1</span>
+            </NavLink>
+            <NavLink
+              className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
+              to="/"
+            >
+              <span className="mx-4 text-md font-normal">Page 2</span>
+            </NavLink>
           </div>
         </div>
       </div>
