@@ -31,40 +31,46 @@ function Sidebar() {
               </NavLink>
               <NavLink
                 className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
-                to="/"
+                to="/elements/badges"
+                activeClassName="text-gray-800 bg-gray-100"
               >
                 <span className="mx-4 text-md font-normal">Badges</span>
               </NavLink>
-              <a
+              <NavLink
                 className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
-                href="#"
+                to="/elements/avatars"
+                activeClassName="text-gray-800 bg-gray-100"
               >
                 <span className="mx-4 text-md font-normal">Avatars</span>
-              </a>
-              <a
+              </NavLink>
+              <NavLink
                 className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
-                href="#"
+                to="/elements/menu-list"
+                activeClassName="text-gray-800 bg-gray-100"
               >
                 <span className="mx-4 text-md font-normal">Menu list</span>
-              </a>
-              <a
+              </NavLink>
+              <NavLink
                 className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
-                href="#"
+                to="/elements/alerts"
+                activeClassName="text-gray-800 bg-gray-100"
               >
                 <span className="mx-4 text-md font-normal">Alerts</span>
-              </a>
-              <a
+              </NavLink>
+              <NavLink
                 className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
-                href="#"
+                to="/elements/dashboards"
+                activeClassName="text-gray-800 bg-gray-100"
               >
                 <span className="mx-4 text-md font-normal">Dashboards</span>
-              </a>
-              <a
+              </NavLink>
+              <NavLink
                 className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
-                href="#"
+                to="/elements/progress-bars"
+                activeClassName="text-gray-800 bg-gray-100"
               >
                 <span className="mx-4 text-md font-normal">Progess bars</span>
-              </a>
+              </NavLink>
             </div>
             <div>
               <p className="text-gray-500 ml-2 w-full border-b-2 pb-2 border-gray-200 mb-4 text-md font-normal">
