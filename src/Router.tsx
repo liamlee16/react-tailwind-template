@@ -9,6 +9,10 @@ import Buttons from "./pages/Elements/Buttons";
 import Dashboards from "./pages/Elements/Dashboards";
 import MenuList from "./pages/Elements/MenuList";
 import ProgressBars from "./pages/Elements/ProgressBars";
+import Inputs from "./pages/Forms/Inputs";
+import Layouts from "./pages/Forms/Layouts";
+import Selects from "./pages/Forms/Selects";
+import Toggles from "./pages/Forms/Toggles";
 
 const routes = [
   {
@@ -49,6 +53,26 @@ const routes = [
   {
     path: "/elements/progress-bars",
     component: ProgressBars,
+    exact: true,
+  },
+  {
+    path: "/forms/inputs",
+    component: Inputs,
+    exact: true,
+  },
+  {
+    path: "/forms/selects",
+    component: Selects,
+    exact: true,
+  },
+  {
+    path: "/forms/toggles",
+    component: Toggles,
+    exact: true,
+  },
+  {
+    path: "/forms/layouts",
+    component: Layouts,
     exact: true,
   },
   {
