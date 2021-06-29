@@ -6,7 +6,11 @@ interface Props {
 }
 
 function PageLayout({ children }: Props) {
-  return <div className="w-full grid grid-cols-6 gap-4">{children}</div>;
+  return (
+    <div className="w-full overflow-y-auto grid grid-cols-6 gap-4">
+      {children}
+    </div>
+  );
 }
 
 export default PageLayout;

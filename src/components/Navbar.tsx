@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <header className="w-full shadow-lg bg-white dark:bg-gray-700 items-center h-16 z-40">
+    <header className="w-full shadow-lg bg-white dark:bg-gray-700 items-center h-16 z-40 mb-4">
       <div className="relative z-20 flex flex-col justify-center h-full px-3 mx-auto flex-center">
         <div className="relative items-center pl-1 flex w-full lg:max-w-68 sm:pr-2 sm:ml-0">
           <div className="container relative left-0 z-50 flex w-3/4 h-full">

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Sidebar() {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white sm:block hidden">
       <div className="flex flex-col sm:flex-row sm:justify-around">
         <div className="w-72 h-screen overflow-y-auto">
           <nav className="mt-10 px-6">
