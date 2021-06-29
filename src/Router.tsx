@@ -13,6 +13,9 @@ import Inputs from "./pages/Forms/Inputs";
 import Layouts from "./pages/Forms/Layouts";
 import Selects from "./pages/Forms/Selects";
 import Toggles from "./pages/Forms/Toggles";
+import Footers from "./pages/Navigation/Footers";
+import Headers from "./pages/Navigation/Headers";
+import Sidebars from "./pages/Navigation/Sidebars";
 
 const routes = [
   {
@@ -73,6 +76,21 @@ const routes = [
   {
     path: "/forms/layouts",
     component: Layouts,
+    exact: true,
+  },
+  {
+    path: "/navigation/headers",
+    component: Headers,
+    exact: true,
+  },
+  {
+    path: "/navigation/footers",
+    component: Footers,
+    exact: true,
+  },
+  {
+    path: "/navigation/sidebars",
+    component: Sidebars,
     exact: true,
   },
   {
