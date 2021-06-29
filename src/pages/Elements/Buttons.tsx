@@ -128,7 +128,7 @@ function Buttons() {
         </div>
       </div>
 
-      <div className="w-full px-4 py-2 bg-white shadow-lg">
+      <div className="w-full px-4 py-2 bg-white shadow-lg col-span-2">
         <div className="text-lg text-center py-2 mb-4 border-gray-400 border-b">
           Multiple buttons
         </div>
