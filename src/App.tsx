@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Dashboard from "./pages/Dashboard";
@@ -14,10 +15,12 @@ function App() {
           <div className="flex items-start justify-between">
             <Sidebar />
             <div className="flex flex-col w-full space-y-4">
-              <div className="h-screen overflow-y-auto p-4 pt-0">
+              <div className="h-screen overflow-auto p-4 pt-0 flex flex-col">
                 <Navbar />
-                {/* <Dashboard /> */}
-                <RouterConfig />
+                <div className="flex-grow">
+                  <RouterConfig />
+                </div>
+                <Footer />
               </div>
             </div>
           </div>
@@ -28,3 +31,4 @@ function App() {
 }
 
 export default App;
+("");
