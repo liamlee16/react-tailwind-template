@@ -156,7 +156,7 @@ function Avatars() {
           </a>
         </div>
       </ComponentLayout>
-      <ComponentLayout colSpan={3} title="With hover effect">
+      <ComponentLayout colSpan={"6"} title="With hover effect xxx">
         <div className="flex -space-x-2 justify-center">
           <a
             className="hover:scale-150 hover:z-10 transition duration-500 ease-in-out transform"
