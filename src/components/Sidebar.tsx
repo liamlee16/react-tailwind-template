@@ -113,14 +113,14 @@ function Sidebar() {
               <NavLink
                 className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
                 to="/"
-                activeClassName="text-gray-800 bg-gray-100"
+                // activeClassName="text-gray-800 bg-gray-100"
               >
                 <span className="mx-4 text-md font-normal">Pricing cards</span>
               </NavLink>
               <NavLink
                 className="hover:text-gray-800 font-thin text-gray-500 hover:bg-gray-100 flex items-center p-2 my-4 transition-colors duration-200 justify-start"
                 to="/"
-                activeClassName="text-gray-800 bg-gray-100"
+                // activeClassName="text-gray-800 bg-gray-100"
               >
                 <span className="mx-4 text-md font-normal">Shopping cards</span>
               </NavLink>
